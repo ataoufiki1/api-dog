@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+  color: white;
+  text-align: center;
+/*   font-size: 40px; */
+  font-family: 'Yusei Magic', sans-serif;
+  height: 95vh;
+
+}
+
+
+.ct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+
+}
+#img-dog{
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+}
+#fetch-dog{
+    margin-top: 40px;
+    background-color: rgb(134, 87, 25);
+    color: #fff;
+    width: 100px;
+    padding: 10px 15px 10px;
+    border-radius: 20px;
+    border: 0px;
+    cursor: pointer;
+    
+    
+
+}
+#fetch-dog:hover{
+    background-color: rgb(216, 146, 55);
+    transition: .5s;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.doggy{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.doggy img{
+  width: 320px;
+  height: 320px;
+  object-fit: contain;
+}
+
+.btn, .btn[disabled="false"]{
+  font-family: 'Yusei Magic', sans-serif;
+  min-width: 100px;
+  appearance: none;
+  user-select: none;
+  cursor: pointer;
+  color: #2c3e50;
+  line-height: 1em;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fff;
+  background-color: rgba(255,255,255, 0);
+  box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #667db6;
+  border: 0.2em solid #fff;
+  padding: 0.8em;
+  text-align: center;
+  transition: 0.25s box-shadow, 0.25s transform;
+  font-size: 18px;
+}
+
+
+.btn[disabled], .btn:hover {
+  box-shadow: 0 4em 0 0 #fff inset, 0em 0em 0 0 #bbb;
+  transform: translate(0.3em, 0.2em);
+  color: #000;
+}
